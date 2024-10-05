@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route('/getToken')
 def getToken():
-  token = api.AccessToken(os.getenv('APIzwZ76quC5NNT'), os.getenv('yaAeVpGXBZfIr5xyOXaGZ1PX3eM7H1MTLMR97pXcD2rA')) \
+  token = api.AccessToken('APIzwZ76quC5NNT', 'yaAeVpGXBZfIr5xyOXaGZ1PX3eM7H1MTLMR97pXcD2rA') \
     .with_identity("identity") \
     .with_name("my name") \
     .with_grants(api.VideoGrants(
