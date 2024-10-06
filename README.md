@@ -52,9 +52,10 @@ npm run ios
 ```
 
 ### Usage
-- Generate Token: Upon launching the app, it will automatically fetch a token required for connecting to LiveKit.
-- 2. **Start a Voice Call**: Tap the "Start Voice Call" button to initiate a call. The token is generated from the server hosted at [https://voice-assistant-package.onrender.com/getToken](https://voice-assistant-package.onrender.com/getToken).
-- Voice Commands: During the call, any audio captured through the microphone will be sent to the backend for processing.
+1. **Generate Token**: Upon launching the app, it will automatically fetch a token required for connecting to LiveKit from the server hosted at [https://voice-assistant-package.onrender.com/getToken](https://voice-assistant-package.onrender.com/getToken).
+2. **Start a Voice Call**: Tap the "Start Voice Call" button to initiate a call.
+3. **Voice Commands**: During the call, any audio captured through the microphone will be sent to the backend for processing.
+4. **AI Agent Playground**: You can test AI commands at the AI agent playground: [https://resilient-virtualmachine-2r8os5.sandbox.livekit.io](https://resilient-virtualmachine-2r8os5.sandbox.livekit.io).
 
 ### Components
 
@@ -80,7 +81,6 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### Acknowledgments
 LiveKit for providing the real-time communication platform.
-Any other libraries or resources you may have used or referenced.
-css
+Any other libraries or resources we may have used or referenced.
 
-This README provides a comprehensive overview of your Voice Assistant App, including installation instructions, usage guidelines, and contribution details.
+```This README provides a comprehensive overview of our Voice Assistant App, including installation instructions, usage guidelines, and contribution details.```
