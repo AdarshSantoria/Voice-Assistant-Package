@@ -1,4 +1,8 @@
+# Ignore node_modules
 /voiceassistant/node_modules/
+
+# Ignore build directories
 /voiceassistant/android/app/build/
+
+# Ignore all APK files
 *.apk
-voiceassistant/android/app/build/outputs/apk/release/app-release.apk
