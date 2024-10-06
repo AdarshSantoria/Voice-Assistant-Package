@@ -1,5 +1,4 @@
 from __future__ import annotations
-import os
 import logging
 from flask import Flask, request, jsonify
 from livekit import rtc
@@ -90,6 +89,6 @@ if __name__ == "__main__":
     cli.run_app(WorkerOptions(
         entrypoint_fnc=entrypoint, 
         ws_url='wss://voice-assistant-p9sapy6b.livekit.cloud', 
-        api_key=os.getenv('APIzwZ76quC5NNT'),
-        api_secret=os.getenv('yaAeVpGXBZfIr5xyOXaGZ1PX3eM7H1MTLMR97pXcD2rA')
+        api_key='APIzwZ76quC5NNT',
+        api_secret='yaAeVpGXBZfIr5xyOXaGZ1PX3eM7H1MTLMR97pXcD2rA'
     ))
