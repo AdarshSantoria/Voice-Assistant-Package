@@ -34,17 +34,21 @@ npm install
 
 - Create a .env file in the root directory and define the necessary environment variables. Ensure to set the correct LiveKit WebSocket URL:
 
-arduino
+```bash
 LIVEKIT_URL=wss://your-livekit-url
+```
+
 Start the Application
-bash
-Copy code
+
+```bash
 npm run start
+```
 For Android:
 
-bash
-Copy code
+```bash
 npm run android
+```
+
 For iOS:
 
 ```bash
