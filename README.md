@@ -7,7 +7,6 @@ Voice Assistant is a React Native application that allows users to make voice ca
 ## Features
 
 - **Voice Calls**: Initiate and participate in voice calls using LiveKit.
-- **Token Generation**: Automatically fetches access tokens for securing the call sessions.
 - **Voice Command Processing**: Sends audio track data to a specified endpoint for processing voice commands.
 
 ## Installation
@@ -54,7 +53,7 @@ npm run ios
 
 ### Usage
 - Generate Token: Upon launching the app, it will automatically fetch a token required for connecting to LiveKit.
-- Start a Voice Call: Tap the "Start Voice Call" button to initiate a call.
+- 2. **Start a Voice Call**: Tap the "Start Voice Call" button to initiate a call. The token is generated from the server hosted at [https://voice-assistant-package.onrender.com/getToken](https://voice-assistant-package.onrender.com/getToken).
 - Voice Commands: During the call, any audio captured through the microphone will be sent to the backend for processing.
 
 ### Components
